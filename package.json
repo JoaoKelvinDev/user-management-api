@@ -1,0 +1,21 @@
+{
+  "name": "user-management-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.4",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.9.7",
+    "react": "^19.2.4",
+    "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
