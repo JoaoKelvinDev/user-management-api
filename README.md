@@ -53,6 +53,23 @@ Authorization: Bearer SEU_TOKEN_AQUI
 
 ## 📌 Rotas da API
 
+## 🧪 Testes da API
+
+Os endpoints da API foram testados utilizando as ferramentas:
+
+- **APIDog**
+- **Insomnia**
+
+No **APIDog**, os endpoints estão organizados em três grupos:
+
+- **auth** → autenticação (registro e login)
+- **users** → rotas de usuário (rotas protegidas com JWT)
+- **health** → verificação de status da API
+
+📌 Para acessar rotas protegidas, é necessário informar o token JWT no header da requisição:
+
+Authorization: Bearer SEU_TOKEN_AQUI
+
 ### 🔑 Autenticação
 
 #### Registrar usuário
